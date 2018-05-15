@@ -1,0 +1,17 @@
+16
+insert    1  4
+insert    2  1
+insert    3  3
+insert    4  2
+insert    7 16
+insert    6  9
+insert    7 10
+insert    8 14
+insert    9  8
+insert   10  7
+print
+priority  7  5
+print
+top
+pop
+print
