@@ -101,5 +101,6 @@ std::string InputHandler::priority(std::string key)
 
 std::string InputHandler::print(std::string key)
 {
-	return cont->to_string();
+	std::string res = cont->to_string();
+	return (res.length() > 0) ? res : " ";
 }
